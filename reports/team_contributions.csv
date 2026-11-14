@@ -1,6 +1,4 @@
-member,git_author_name,git_email,role,modules_files,commit_shas,evidence_note,presenter
-Member 1,,,Lead / Integrator,src/main.py; configs/,,,
-Member 2,,,Data & fixtures,fixtures/; tools/,,,
-Member 3,,,Core algorithm,src/pipeline.py,,,
-Member 4,,,QA / metric,tests/; reports/metrics_*.json,,,
-Member 5,,,Human review + report,reports/group_report.md; demo/,,,
+member,git_author_name,git_author_email,role,modules_files,commit_shas,evidence_note,presenter
+La Thai Hoa,Zeus-AIE,lathaihoa2003@gmail.com,Lead / T06 Architect & Reviewer,configs/lab.yaml; src/pipeline.py; src/baseline.py; tests/test_t06_poc.py; reports/*,a82080a (T06 implementation from base b0ce8bf),Implemented T06 PoC + baseline + 6 tests + HITL review & report,yes
+loversky02,loversky02,bao232030333@lms.utc.edu.vn,Starter Repo Maintainer (upstream),src/metrics/tracks.py; tools/eval_all.py,b0ce8bf; 59a0bfb; 815c7c4; b35487b; 68ddd5c; dd1a58d,Upstream course repo commits (prior to G06 T06 implementation),no
+Tin Duong,Tin Duong,26454564+ivo-gilles@users.noreply.github.com,Lab Infrastructure Author (upstream),src/main.py; src/common/*; fixtures/*,4536936; 6325efb; 49fa1d0; acf1a65,Upstream shared harness and 14 synthetic fixture packs,no
